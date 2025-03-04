@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 9px;
+  background-color: rgb(213, 174, 174);
+}
+
+nav input {
+  padding: 9px;
+  text-decoration: none;
+  width: 200px;
+  font-size: 12px;
+  border: none;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav button {
+  width: 70px;
+  height: 35px;
+  background-color: rgb(213, 121, 121);
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  margin-right: 5px;
+}
+
+.categoryBtn button {
+  width: 130px;
+  height: 32px;
+  background-color: rgb(213, 121, 121);
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  padding: 2px;
+  margin: 5px 7px;
+}
+
+.head {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  
+  width: 200px;
+  background-color: rgb(204, 221, 215);
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(236, 236, 236);
+  box-shadow: 0px 4px 4px 4px rgba(255, 255, 255);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.card .title {
+  font-weight: 600;
+  font-size: 16px;
+  margin: -7px 0;
+}
+
+.card .title:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.card button {
+  background-color: rgb(29, 162, 214);
+  border: none;
+  cursor: pointer;
+  height: 28px;
+  width: 100px;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+}
