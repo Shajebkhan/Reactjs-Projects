@@ -24,6 +24,7 @@ nav input {
   display: flex;
   align-items: center;
   gap: 10px;
+ 
 }
 
 nav button {
@@ -33,6 +34,7 @@ nav button {
   border: none;
   border-radius: 4px;
   color: white;
+  cursor: pointer;
 }
 
 nav ul {
